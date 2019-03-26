@@ -13,7 +13,7 @@ make install
 
 #### Создаём свой исполняющий файл
 ```sh
-echo -en "\#\!/bin/bash\nsleep 9999999999" > /usr/local/mgr5/just_sleep.sh
+echo -en '\#\!/bin/bash\nsleep 9999999999' > /usr/local/mgr5/just_sleep.sh
 chmod +x /usr/local/mgr5/just_sleep.sh
 ```
 
